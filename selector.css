@@ -1,0 +1,61 @@
+/* Header */
+
+header {
+    border: solid 1px red;
+    border-radius: 5px;
+}
+
+/* Navigation */
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+/* Main */
+
+.disabled {
+    color:grey;
+}
+
+.disabled a {
+    color:purple;
+}
+
+.active {
+    color:yellow;
+}
+
+.parent :nth-child(2) {
+    color: red;
+}
+
+.parent :nth-child(2) + h4 {
+    color: red;
+}
+
+.parent :nth-child(4) {
+    color: blue;
+}
+
+.parent :nth-child(4) + h4{
+    color: blue;
+}
+
+.grandparent > h4 {
+    border: solid 1px red;
+    border-radius: 5px;
+}
+ .promo {
+     font-weight: bold;
+     color: gold;
+ }
+
+ /* Footer */
+
+ span input {
+     height: 25px;
+ }
